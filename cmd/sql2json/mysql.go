@@ -35,5 +35,5 @@ func main() {
 		log.Printf("Error: %v", err)
 		os.Exit(3)
 	}
-	fmt.Println(json)
+	fmt.Println(string(json))
 }
